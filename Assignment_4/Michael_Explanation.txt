@@ -1,0 +1,5 @@
+The reason why h1 is unable to ping h2 is because it is in the same subnet, but it has a DIFFERENT default gateway IP address.
+
+This is because h1 is on a different interface of the Router than h2.  Each interface on the router needs to be on a DIFFERENT subnet.
+
+If we change the IP address of H1 to be on a different subnet than the IP address of H2, H1 should be able to ping h2.

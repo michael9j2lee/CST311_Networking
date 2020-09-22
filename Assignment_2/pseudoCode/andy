@@ -1,0 +1,9 @@
+- Setup connection to server
+- Array to hold RTT changes over iterations
+- For loop of 10 iterations to ping the target server
+  - hold time
+  - send message
+  - create various variables to hold rtt and others for future calculations
+  - try to see if success and calculate rtt from elapsed time
+    - print out rtt and other calculated values like 
+  - if failed, alert through logs

@@ -1,0 +1,8 @@
+Testing
+
+In order to test that the client and the server working as expected, we ran the code on our local machines.  
+We had to ensure that the ordering of the messages were correct by testing Client X first and then Client Y second.  We then tested Y first and then X.
+We were able to verify that everything was working as expected when the ordering changed based upon which client sent it first.
+We were also able to verify this in the Servery code by printing out the messages before it was sent.  
+After all of this was finished, we tested this on mininet after changing the IP Addresses to match the server IP Address.
+With these checks, we were able to verify that everything was working as expected.

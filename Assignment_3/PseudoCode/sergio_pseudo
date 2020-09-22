@@ -1,0 +1,49 @@
+Sergio Quiroz 
+Peusdo code
+
+server.py
+————————————————
+import socket
+import sys
+import threading
+# read the name from client
+# check if both clients have sent messages
+# Send message to all other clients except the sender
+# on new connection list to messages from this client on different
+# thread so that we don't block other clients from connecting
+t = threading.Thread(target=listenToClientMessages, args=[c, addr])
+# start the thread
+t.start()
+count+=1
+def main():
+# Initialize server socket to listen to connections
+s = getServerSocket()
+# start listening to new connections
+listenToNewConnections(s)
+main()
+——————————————
+Client.py
+——————————————
+import socket
+import sys
+import threading
+may have a global variable
+port
+# Client passed in as command line argument
+# Name of client (Alice/Bob)
+# connect with server at port in command line argument
+def getConnection(port, ip):
+s = socket.socket()
+# method to send message to server
+def sendMessages(s):
+global sent
+sent = (client,name)
+s.send(sent)
+#receive message from server
+def receiveMessages(s):
+msg = s.recv(1024)
+print(msgsent)
+def main():
+main()
+
+ 

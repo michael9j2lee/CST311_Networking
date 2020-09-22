@@ -1,0 +1,27 @@
+#ping -n -i 1 
+
+
+# Method ping and generate a list
+#Use subprocess or os to ping the server.
+	#ping the server.  10x (get the response time for each)
+	#set the params/tags for the cmd prompt.
+
+	#calculate the roud trip time for each packet.  
+	
+	#if the ping was "considered lost", print "Request timed out"
+	
+	#print the extracted information in ping
+	#min, max, average after all the pings.
+	#store the estimated sample time in to a list
+	
+	#calculate and print packet loss percentage
+	
+	
+
+#Method RTT
+	# initialize Variables for RTT
+	# using the item from the list
+	# iterate through list and calculate the estimated rtt and devRTT for every number.
+	# at the end, calculate the timeout.
+	#(1- a) * estRTT + a * num
+	#(1 - b) * devRTT + b * abs(num - estRTT)

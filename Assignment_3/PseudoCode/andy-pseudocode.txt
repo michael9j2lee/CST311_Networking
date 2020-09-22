@@ -1,0 +1,18 @@
+# SERVER!!
+# Start socket, host, port
+# Start server and bind to host/port, etc. general setup
+
+# Go into an infinite while loop:
+  # Start thread for each new connection
+  # Each connection will get an infinite while loop on its thread,
+    this loop will handle communication with the client
+  # Spawn more and more threads as connections come in
+
+
+
+
+# CLIENT!!
+# Establish connection to server
+# Send message
+# Await response
+# Print message and response from server

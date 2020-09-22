@@ -1,0 +1,6 @@
+# Pseudo code Ramon Lucindo
+
+# create separate client codes acting as A and B that are sequentially executed
+# A then B or B then A establishes a connection with the server
+# The server identifies which client connected first and which connected subsequently
+# The server communicates with both clients with their own console messages

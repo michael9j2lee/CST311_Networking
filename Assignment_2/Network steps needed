@@ -1,0 +1,11 @@
+Network steps needed
+
+-UDPPinderServer.py
+-code given
+
+UDPingerClient.py
+- import proper modules such as socket and time
+- set port number
+- set IP address
+- create socket (in order to send and recieve)
+- recieve data to use for computation 

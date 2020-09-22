@@ -1,0 +1,1 @@
+We found that Python is capably different, in that, we actually have to import "thread" to do multi-threading instead of it being built into the language, as syntactical sugar live JavaScript's async/await.  For this programming assignment we intended on using queues but found instead the use of locks.

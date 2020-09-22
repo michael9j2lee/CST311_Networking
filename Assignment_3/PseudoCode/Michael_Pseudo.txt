@@ -1,0 +1,18 @@
+#Pseudo Code Michael Lee
+
+#Create a pool of workers
+
+#Create a Queue
+
+#Create a method that hooks up to the queue.  if items are put into the queue, the item will run.
+
+#Create a socket connection and listen on the socket.
+
+#Create a mechanism for determining which message came first.
+	#If Client X sent message first, hold this value in a variable
+	#If Client Y sent a message first, hold this value in a variable.
+	#Depending on which client sent it first, send a message to both of the clients on who came first, and who came second.
+
+#If the message sent is Bye, the close the connection for both.
+
+#Close all connections after everything is finished.

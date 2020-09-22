@@ -1,1 +1,1 @@
-# CST311_Networking
+# cst-311-group-7

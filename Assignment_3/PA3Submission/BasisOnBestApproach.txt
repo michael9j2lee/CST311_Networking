@@ -1,0 +1,11 @@
+We found that the best approach was to create a connection before and then create a thread when a new message comes in.
+This was a lot more simpler than creating a pool of workers, but it might have been better to create a pool of workers.
+
+After we started a new thread, we had to decide on the mechanism that detects which client sent the message first.
+We were thinking of having a lot of global variables to keep track of this, but instead, we decided to go with a simple list.
+When a new item came in, we just append the item to the list and then the next after that.
+
+From here, we were able to get the first item based upon index (list[0] and list[1]).
+We had a global variable that detected if two items were added to the list.  After the second item was added, we sent the message.
+
+After this, we would close the socket.

@@ -1,0 +1,5 @@
+Testing
+
+In order to test the file we opened two shell interfaces and ran the code. They were connected and relayed messages
+to one another. As you can see from the screenshot the pings were successful some anyway. From this we are able to see 
+that calculations displayed. 

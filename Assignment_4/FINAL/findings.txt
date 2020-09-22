@@ -1,0 +1,20 @@
+1. Network Diagrams
+
+2. List of changes
+  - h1 and h2 were given IP addresses on different subnets. They were also given default routes
+  - When linking h1 and h2 to r1, both were given specific names and IP addresses on different subnets
+  These changes were done to put the two hosts h1 and h2 on different subnets, allowing them to communicate.
+
+3-5: (SCREENSHOT)
+
+6.
+  a) The power of subnets and default gateway IP addresses. Also, mininet is really powerful for experiments like this.
+  
+  b) The reason why h1 is unable to ping h2 is because it is in the same subnet, but it has a DIFFERENT default gateway IP address.
+     This is because h1 is on a different interface of the Router than h2.  Each interface on the router needs to be on a DIFFERENT subnet.
+     If we change the IP address of H1 to be on a different subnet than the IP address of H2, H1 should be able to ping h2.
+
+  c) Yes, without it there is no IP forwarding. Attemping to ping h1 to h2 or vice versa results in an endless delay
+  
+  d) Comment out linking h1 to the network. This causes things to break as h1 can no longer reach the network at all.
+     h2 attempting to ping h1 fails with a programmatic error as h1 isn't linked at all.

@@ -1,0 +1,17 @@
+Ramon Lucindo 
+pseudo code
+UDPPingerClient.py
+
+import tools
+
+create variables for port number and IP address
+
+output beginning of pinging simulation
+
+for each "ping,"  gather values for packets sent, received, lost, including % of lost
+
+calculate round trip in milliseconds
+
+calculate and output minimum, maximum and average values of round trip
+
+close connection

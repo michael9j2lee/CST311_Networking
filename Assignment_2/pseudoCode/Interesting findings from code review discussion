@@ -1,0 +1,16 @@
+Interesting findings from code review discussion. 
+
+Ramon - We simulated pinging and packet reception and we were able to record statistical times. The simulation was 
+interesting and revealed more about timing.  This is my second exposure to Python after last year's Multimedia
+Programming Class.
+
+Michael - The objective of this project is to create a python program that mimics the ping command.  I was never aware 
+of how important the TTL is when sending a ping.  I believe the ping command in the terminal is similar than the calculations
+done for the TTL calculations done, but it is important to see why there is a specific TTL for each request sent.  
+
+Andy - I found it interesting how python enabled us to create a ping tool so easily. I didn’t know the language came 
+with so much out of the box and I’m going to try to use it more for my quick scripting needs in the future.
+
+Sergio - I found that python is easy to use relative to other programming languages. It seems to be very powerful and 
+I feel there is a lot of potential to learn using this programming language. I hope to learn more about python and all
+it has to offer. 

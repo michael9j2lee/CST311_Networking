@@ -1,0 +1,76 @@
+#Sergio's Pseudo code
+# UDPPingerClient.py
+# Pseudo code
+# CST 311
+#program start 
+ Start 
+
+
+——————————— tools
+#import socket tools
+      Import socket from socket AF-INET, SOCK_DGRAM
+      Import time 
+ 
+——————————— setUp/
+ #server  to local host
+      Set  udp ip to local host
+#Declare UDP port number
+     Set udp port number
+#create socket
+     clietntSocket 
+#set timeout for server reply
+     Clientssocket.timeout()
+
+# display message
+     Print (‘pinging’ , udp address , udp port number)
+#  variable to keep track of sequence count
+     seqCount = 1
+
+#array to store values (maybe fix to not get docked 3%)
+     tripValue [] 
+——————————— program
+
+#while loop to run 
+     While seqCount <= 10 
+     
+     #time needs to start 
+          Start time
+     #count sequence
+          SequenceCount 
+
+     #client program sends message to the actual server
+           Client socket sends message to server
+
+     #try & catch for handling 
+     
+          try: 
+	   #message come from server
+	      messaged received from server
+             #calculations
+	      elapsed time 
+	      roundTrip
+	 #response from server
+	      print(seqCount + elapsedTime)
+
+      # socket timeout
+	     except socketTimeOut
+            #print to say it was lost packet
+	     print(package lost)
+ 
+      #if statement to check if seq is over 10
+	if sequenceCount >10
+	
+	#print all the calculations
+	     maxRTT
+	     minRTT
+	     avgRTT
+	     estimatedRTT (alpha = .125)
+	     devRTT (beta = .25) (timeout interval)
+	     packetLoss (percentage)
+	
+	#close socket
+	     clientSocketClose()
+—————————— 
+	     
+End
+#end 
